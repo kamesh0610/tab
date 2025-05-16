@@ -65,7 +65,7 @@ export function RegisterForm() {
     };
     try {
       const response = await axios.post(
-        'http://localhost:5000/api/auth/register',
+        'https://tab-backend-gamma.vercel.app/api/auth/register',
         data
       );
       alert('Registration successful');
